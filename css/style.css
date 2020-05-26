@@ -36,9 +36,44 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .header {
     background-color: var(--basic-extra-light);
 }
-.header-main-nav {
+
+.header-top {
     background-color: var(--basic-dark);
+}
+
+.title {
+    font-family: Cuprum;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--special)
+}
+
+.header-nav {
+    font-family: Cuprum;
+    font-size: 18px;
+    background-color: var(--basic-dark);
+    color: var(--basic-white);
+
+}
+.header-nav ul {
+    list-style: none;
+}
+.header-nav a {
+    color: var(--basic-white);
 }
