@@ -20,10 +20,10 @@ body {
     min-width: 960px;
     margin: 0;
     padding: 0;
-    font-family: "Cuprum", "PT Sans", Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: normal;
     color: var(--basic-black);
     background-color: var(--basic-white);
 }
@@ -113,8 +113,14 @@ img {
 .contacts p {
     font-family: "PT Sans";
 }
+
 .footer {
     background-color: var(--basic-dark);
+    color: var(--basic-white);
+}
+
+.footer-top {
+    font-size: 18px;
     color: var(--basic-white);
 }
 
@@ -127,16 +133,22 @@ img {
     text-decoration: underline;
 }
 
-.footer-nav-1 ul {
+.footer-nav-1 {
     list-style: none;
-    color: var(--special-3)
 }
 
-.footer-nav-2 ul {
+.footer-nav-2 {
     list-style: none;
-    
 }
+
+.footer-nav-2 a {
+        color: var(--special-3);
+}
+
+
 .footer-bottom {
+    font-size: 16px;
+    line-height: 18px;
     background-color: var(--basic-extra-dark);
 }
 
