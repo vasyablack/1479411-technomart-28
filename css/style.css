@@ -118,12 +118,17 @@ ul {
     font-size: 14px;
     line-height: 24px;
 }
+.header-login {
+    outline: 5px solid rgba(255, 0, 255, 0.3);
+    outline-offset: -5px;
+}
+.header-login li {
+    display: inline;
+}
 .header-login li {
     background-color: var(--basic-white);
     font-size: 21px;
     line-height: 21px;
-    outline: 5px solid rgba(255, 0, 255, 0.3);
-    outline-offset: -5px;
 }
 .header-login a {
     color: var(--basic-black);
@@ -148,6 +153,9 @@ ul {
     align-items: center;
     outline: 5px solid rgba(0, 255, 255, 0.3);
     outline-offset: -5px;
+}
+.header-nav li {
+    display: inline;
 }
 
 .header-nav a {
