@@ -12,6 +12,10 @@
     --special: #EE3643;
     --special-2: #63A63E;
     --special-3: #FFD180;
+    --special-4: #ba2733;
+    --special-5: #5fbb2c;
+    --spesial-6: #3d546f;
+    --special-7: #161D29;
 }
 
 /* Global */
@@ -37,6 +41,10 @@ img {
   height: auto;
 }
 
+ul {
+    list-style: none;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -55,19 +63,65 @@ img {
 .header-top {
     background-color: var(--basic-dark);
 }
+.header-top a {
+    color: var(--basic-white);
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.logo {
+    background-color: var(--special);
+    border-bottom: 4px solid var(--special-4);
+}
+.bookmarks:active,
+.cart:active {
+    background-color: var(--special-7);
+}
+.order {
+    background-color: var(--special-2);
+    border: 0;
+    color: var(--basic-white);
+}
+.order:hover {
+    background-color: var(--special-5);
+}
+.header-phone {
+    border: 3px solid var(--basic-white);
 
+}
+.header-phone a {
+    color: var(--special);
+    font-size: 21px;
+    line-height: 30px;
+}
+.header-adress {
+    color: var(--basic-dark);
+    font-size: 14px;
+    line-height: 24px;
+}
+.header-login li {
+    background-color: var(--basic-white);
+    font-size: 21px;
+    line-height: 21px;
+}
+.header-login a {
+    color: var(--basic-black);
+}
+.header-login a:hover,
+.header-login a:active {
+    color: var(--special);
+}
 .title {
     font-style: italic;
     font-size: 16px;
     line-height: 23px;
     color: var(--special)
 }
-
 .header-nav {
     font-size: 18px;
     background-color: var(--basic-dark);
     color: var(--basic-white);
-
+    border-bottom: 4px solid var(--basic-extra-dark);
 }
 .header-nav ul {
     list-style: none;
@@ -75,12 +129,10 @@ img {
 .header-nav a {
     color: var(--basic-white);
 }
-
 .header-nav a:hover,
 .header-nav a:focus {
-  background-color: var(--basic-extra-dark);
+    background-color: var(--basic-extra-dark);
 }
-
 .index-columns h2 {
     font-size: 30px;
     line-height: 30px;
@@ -99,9 +151,8 @@ img {
     list-style: none;
 }
 .about p {
-    font-family: "PT Sans";
+    font-family: "PT Sans", Arial, sans-serif;
 }
-
 .about h2 {
     font-weight: normal;
     text-transform: uppercase;
@@ -111,47 +162,37 @@ img {
     text-transform: uppercase;
 }
 .contacts p {
-    font-family: "PT Sans";
+    font-family: "PT Sans", Arial, sans-serif;
 }
-
 .footer {
     background-color: var(--basic-dark);
     color: var(--basic-white);
 }
-
 .footer-top {
     font-size: 18px;
     color: var(--basic-white);
 }
-
 .footer-top a {
     color: var(--basic-white);
 }
-
 .footer-top a:hover,
 .header-top a:focus {
     text-decoration: underline;
 }
-
 .footer-nav-1 {
     list-style: none;
 }
-
 .footer-nav-2 {
     list-style: none;
 }
-
 .footer-nav-2 a {
         color: var(--special-3);
 }
-
-
 .footer-bottom {
     font-size: 16px;
     line-height: 18px;
     background-color: var(--basic-extra-dark);
 }
-
 .footer-social li {
     list-style: none;
 }
