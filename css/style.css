@@ -71,6 +71,8 @@ ul {
   outline-offset: -5px;
 }
 .header-top {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--basic-dark);
   outline: 5px solid rgba(255, 0, 0, 0.3);
   outline-offset: -5px;
@@ -80,8 +82,6 @@ ul {
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
-  outline: 5px solid rgba(255, 123, 0, 0.3);
-  outline-offset: -5px;
 }
 .header-logo {
   background-color: var(--special);
@@ -125,10 +125,6 @@ ul {
   line-height: 24px;
 }
 .header-user {
-  outline: 5px solid rgba(255, 0, 255, 0.3);
-  outline-offset: -5px;
-}
-.header-user {
   background-color: var(--basic-white);
   font-size: 21px;
   line-height: 21px;
@@ -170,6 +166,11 @@ ul {
   line-height: 23px;
   color: var(--special);
 }
+.header-middle {
+  display: flex;
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
+}
 .header-nav {
   font-size: 18px;
   background-color: var(--basic-dark);
@@ -191,6 +192,9 @@ ul {
 .header-nav a:active {
   background-color: var(--special-8);
   opacity: 0.5;
+}
+.header-nav ul {
+  display: inline-flex;
 }
 .index-columns h2 {
   font-size: 30px;
