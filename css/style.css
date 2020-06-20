@@ -94,11 +94,22 @@ ul {
 .header-search {
   padding-top: 9px;
   padding-bottom: 9px;
-  padding-left: 42px;
+  padding-left: 43px;
+  padding-right: 143px;
 }
 .header-search:focus {
   background-color: var(--basic-white);
   color: var(--basic-black);
+}
+.header-bookmarks {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 226px;
+}
+.header-cart {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 73px;
 }
 .header-bookmarks:active,
 .header-cart:active {
@@ -118,6 +129,7 @@ ul {
 .header-order:active {
   opacity: 0.5;
 }
+
 .header-phone {
   border: 3px solid var(--basic-white);
 }
